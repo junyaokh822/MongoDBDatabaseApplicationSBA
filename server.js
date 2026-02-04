@@ -2,6 +2,7 @@ import express from "express";
 import { logReq, globalErr } from "./middleware/basicMiddlewares.js";
 import dotenv from "dotenv";
 import connectDB from "./db/conn.js";
+import userRoutes from "./routes/userRoutes.js";
 
 dotenv.config();
 const app = express();
@@ -11,7 +12,9 @@ connectDB();
 //express setup
 app.use(express.json());
 app.use(logReq);
+
 //routes
+app.use("/api/users", userRoutes);
 
 //global handling errors
 app.use(globalErr);

@@ -15,10 +15,6 @@ const userSchema = new mongoose.Schema(
       type: Number,
       min: 0,
     },
-    active: {
-      type: Boolean,
-      default: true,
-    },
   },
   {
     timestamps: true,
