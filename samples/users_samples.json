@@ -1,0 +1,27 @@
+[
+  {
+    "name": "John Anderson",
+    "email": "john.anderson@email.com",
+    "age": 28
+  },
+  {
+    "name": "Sarah Martinez",
+    "email": "sarah.martinez@email.com",
+    "age": 34
+  },
+  {
+    "name": "Michael Chen",
+    "email": "michael.chen@email.com",
+    "age": 42
+  },
+  {
+    "name": "Emily Johnson",
+    "email": "emily.johnson@email.com",
+    "age": 25
+  },
+  {
+    "name": "David Thompson",
+    "email": "david.thompson@email.com",
+    "age": 31
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Introduction to MongoDB and NoSQL Databases",
+    "content": "MongoDB is a document-oriented NoSQL database that provides high performance, high availability, and easy scalability. Unlike traditional relational databases, MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. This makes it ideal for applications that require rapid development and iteration.",
+    "author": "John Anderson",
+    "category": "technology",
+    "tags": ["mongodb", "nosql", "database", "development"],
+    "isPublished": true,
+    "views": 52
+  },
+  {
+    "title": "10 Healthy Breakfast Ideas for Busy Mornings",
+    "content": "Starting your day with a nutritious breakfast is essential for maintaining energy levels and productivity. Here are ten quick and healthy breakfast ideas that you can prepare in under 15 minutes: overnight oats, smoothie bowls, avocado toast, Greek yogurt parfait, and more. Each recipe is packed with nutrients to fuel your day.",
+    "author": "Sarah Martinez",
+    "category": "lifestyle",
+    "tags": ["health", "breakfast", "nutrition", "recipes"],
+    "isPublished": true,
+    "views": 87
+  },
+  {
+    "title": "Understanding JavaScript Async/Await: A Comprehensive Guide",
+    "content": "Asynchronous programming in JavaScript has evolved significantly over the years. From callbacks to promises, and now to async/await, developers have more elegant ways to handle asynchronous operations. This guide will walk you through the fundamentals of async/await, common patterns, error handling, and best practices for writing clean asynchronous code.",
+    "author": "Michael Chen",
+    "category": "education",
+    "tags": ["javascript", "async", "programming", "tutorial"],
+    "isPublished": true,
+    "views": 565
+  },
+  {
+    "title": "Top 10 Movies to Watch This Weekend",
+    "content": "Looking for something to watch this weekend? We've compiled a list of the top 10 must-see movies across various genres. From thrilling action blockbusters to heartwarming dramas and laugh-out-loud comedies, there's something for everyone. Each recommendation includes a brief synopsis and why it's worth your time.",
+    "author": "Emily Johnson",
+    "category": "entertainment",
+    "tags": ["movies", "reviews", "weekend", "recommendations"],
+    "isPublished": true,
+    "views": 112
+  },
+  {
+    "title": "The Art of Effective Communication in the Workplace",
+    "content": "Effective communication is the cornerstone of any successful organization. This article explores key strategies for improving workplace communication, including active listening, clear and concise messaging, non-verbal communication cues, and leveraging technology for remote teams. Learn how to avoid common communication pitfalls and build stronger professional relationships.",
+    "author": "David Thompson",
+    "category": "general",
+    "tags": ["communication", "workplace", "productivity", "soft-skills"],
+    "isPublished": true,
+    "views": 557
+  }
+]

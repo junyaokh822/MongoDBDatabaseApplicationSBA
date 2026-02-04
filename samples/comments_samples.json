@@ -1,0 +1,27 @@
+[
+  {
+    "text": "Great article! This really helped me understand MongoDB better. I've been using SQL databases for years, and this gives me a fresh perspective on document-based storage.",
+    "postId": "REPLACE_WITH_ACTUAL_POST_ID_1",
+    "author": "Sarah Martinez"
+  },
+  {
+    "text": "Thanks for sharing these breakfast ideas! I tried the overnight oats recipe this morning and it was delicious. Perfect for my hectic schedule.",
+    "postId": "REPLACE_WITH_ACTUAL_POST_ID_2",
+    "author": "Michael Chen"
+  },
+  {
+    "text": "This is exactly what I needed! The async/await examples are clear and well-explained. Bookmarking this for future reference.",
+    "postId": "REPLACE_WITH_ACTUAL_POST_ID_3",
+    "author": "Emily Johnson"
+  },
+  {
+    "text": "Excellent movie recommendations! I watched three of these over the weekend and they were all fantastic. Can't wait to see the rest.",
+    "postId": "REPLACE_WITH_ACTUAL_POST_ID_4",
+    "author": "David Thompson"
+  },
+  {
+    "text": "Really insightful article on workplace communication. I've already started implementing some of these strategies with my team and seeing positive results!",
+    "postId": "REPLACE_WITH_ACTUAL_POST_ID_5",
+    "author": "John Anderson"
+  }
+]
