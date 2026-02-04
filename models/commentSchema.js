@@ -20,4 +20,7 @@ const commentSchema = new mongoose.Schema(
   },
 );
 
+// postId index (GET /api/comments/post/:postId)
+commentSchema.index({ postId: 1 });
+
 export default mongoose.model("Comment", commentSchema);

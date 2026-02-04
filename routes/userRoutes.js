@@ -20,6 +20,30 @@ router.get("/", async (req, res) => {
   }
 });
 
+//get single user by ID
+router.get("/:id", async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        error: "User not found",
+      });
+    }
+
+    res.json({
+      success: true,
+      data: user,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
 //create user
 router.post("/", async (req, res) => {
   try {

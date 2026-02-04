@@ -41,4 +41,13 @@ const postSchema = new mongoose.Schema(
   },
 );
 
+//1. Category index (GET /api/posts?category=...)
+postSchema.index({ category: 1 });
+
+//2. CreatedAt index for sorting (default sort in GET /api/posts)
+postSchema.index({ createdAt: -1 });
+
+//3. Author index (query by author in routes)
+postSchema.index({ author: 1 });
+
 export default mongoose.model("Post", postSchema);

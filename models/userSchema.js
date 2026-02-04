@@ -28,4 +28,10 @@ const userSchema = new mongoose.Schema(
   },
 );
 
+// 1. Email index
+userSchema.index({ email: 1 });
+
+// 2. CreatedAt index for sorting (GET /api/users sorts by createdAt)
+userSchema.index({ createdAt: -1 });
+
 export default mongoose.model("User", userSchema);
