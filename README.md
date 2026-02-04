@@ -659,7 +659,6 @@ The application uses the following indexes for optimized queries:
 
 ### User Schema
 
-- Email (unique index)
 - CreatedAt (descending)
 
 ### Post Schema
