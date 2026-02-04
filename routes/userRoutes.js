@@ -43,6 +43,15 @@ router.post("/", async (req, res) => {
       data: user,
     });
   } catch (error) {
+    //handle Mongoose validation errors
+    if (error.name === "ValidationError") {
+      const errors = Object.values(error.errors).map((err) => err.message);
+      return res.status(400).json({
+        success: false,
+        error: "Validation failed",
+        details: errors,
+      });
+    }
     res.status(400).json({
       success: false,
       error: error.message,
